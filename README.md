@@ -1,3 +1,5 @@
+# Descrição
+
 Design System é uma documentação dos layouts, das padronizações que seguimos em nossa empresa.
 É qualquer componente visual que pode ser compartilhado entre qualquer aplicação da empresa.
 Não é uma biblioteca de UI Components ou UI Kits!!
@@ -20,7 +22,7 @@ Tokens:
 
 # Components
 
-- [x] Text
+- [ ] Text
 - [ ] Heading
 - [ ] Box
 - [ ] Button
@@ -29,3 +31,11 @@ Tokens:
 - [ ] Checkbox
 - [ ] Avatar
 - [ ] MultiStep
+
+# Bibliotecas de terceiros
+
+- TSUP:
+  É uma ferramenta para fazermos o processo de conversão de nosso código para um pacote JavaScript que poderá ser
+  carregado por outras aplicações. O TSUP consegue converter nosso código para vários formatos diferentes, converte
+  pra CommonJS e ECMAScript Modules, para que ele possa ser utilizado por aplicações mais recentes e aplicações mais
+  antigas. Também é muito mais performático que utilizar o tsc de forma nativa.
